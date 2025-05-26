@@ -103,7 +103,7 @@ leading_zero_count1
 .c({extra_leading_zero_bit_for_exact_power_of_two,leading_zeros})
 );    
 
-delay #(.DELAY(24), .WIDTH(1))
+deHalflay #(.DELAY(23), .WIDTH(1))
 delay_sign1
 (
 .rstn(rstn),
